@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+}
+
+.main-card {
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 45px 35px 70px 0px hsl(242, 86%, 95%);
+}
+
+/* LEFT CARD */
+
+.left-card {
+    width: 50%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.left-card .heading-container {
+    margin: 20px;
+}
+
+.left-card .heading-container h1 {
+    color: hsl(241, 100%, 89%);
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.circle-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-card .circle-container .circle h1 {
+   color: hsl(0, 0%, 100%);
+   font-size: 60px;
+   
+}
+
+.left-card .circle p {
+    color: hsl(241, 100%, 89%);
+}
+
+.left-card .description {
+    text-align: center;
+    display: inline-block;
+}
+
+.left-card .description h1 {
+    font-weight: 500;
+}
+
+.left-card .description p {
+    color: hsl(241, 100%, 89%);
+    width: 250px;
+}
+
+/* RIGHT CARD */
+
+.right-card {
+    width: 50%;
+    margin: 20px;
+}
+
+.right-card .heading-container h1 {
+    width: 100%;
+    text-align: left;
+    margin-right: 305px;
+}
+
+.right-card .list {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding: 1px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.right-card .list .name {
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.right-card .list .score {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* RIGHT CARD REACTION LIST */
+
+.right-card .list .reaction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: hsl(0, 100%, 90%);
+}
+
+.right-card .list .reaction .name {
+    color: hsl(0, 100%, 67%);
+}
+
+.right-card .list .reaction .score {
+    color: hsl(0, 0%, 40%);
+}
+
+/* RIGHT CARD MEMORY LIST */
+
+.right-card .list .memory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: hsl(39, 100%, 90%);
+}
+
+.right-card .list .memory .name {
+    color: hsl(39, 100%, 56%);
+}
+
+.right-card .list .memory .score {
+    color: hsl(0, 0%, 40%);
+}   
+
+/* RIGHT CARD VERBAL LIST */
+
+.right-card .list .verbal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: hsl(166, 100%, 90%);
+}
+
+.right-card .list .verbal .name {
+    color: hsl(166, 100%, 37%);
+}
+
+.right-card .list .verbal .score {
+    color: hsl(0, 0%, 40%);
+}
+
+/* RIGHT CARD VISUAL LIST */
+
+.right-card .list .visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: hsl(234, 85%, 90%);
+}
+
+.right-card .list .visual .name {
+    color: hsl(234, 85%, 45%);
+}
+
+.right-card .list .visual .score {
+    color: hsl(0, 0%, 40%);
+}
+
+/* RIGHT CARD BUTTON */
+
+.right-card button {
+    cursor: pointer;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 16px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.right-card button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.stronger {
+    color: black;
+}
